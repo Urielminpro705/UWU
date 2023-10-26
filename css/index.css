@@ -187,9 +187,9 @@ body{
 .slider{
 
     position: absolute;
+    display: flex;
     flex-wrap: wrap;
     color: var(--color1);
-    display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
@@ -222,12 +222,30 @@ body{
 
 .slider-barra{
 
-height: 3px;
-width: 5%;
-background-color: var(--color1);
-border-radius: 3px;
-transition: all 0.3s ease-in;
+    height: 3px;
+    width: 5%;
+    background-color: var(--color1);
+    border-radius: 3px;
+    transition: all 0.3s ease-in;
 
+}
+
+#slider-0 {
+    background-image: url(../images/Amarre\ Online\ Chaman\ ancestral.jpg); 
+    background-position: 0px -530px;
+    
+}
+
+#slider-1 {
+    background-image: url(../images/Lectura\ del\ tarot\ online.jpg);
+}
+
+#slider-2 {
+    background-image: url(../images/chaman\ ancestral\ hechiceria.jpg);
+}
+
+#slider-3 {
+    background-image: url(../images/Chaman\ Ancestral\ Protecciones.jpg);
 }
 
 .slider-barra:hover{
@@ -251,6 +269,7 @@ transition: all 0.3s ease-in;
     justify-content: center;
     height: 90%;
     width: 40%;
+    min-width: 500px;
 
 }
 
@@ -278,6 +297,7 @@ transition: all 0.3s ease-in;
     
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -306,6 +326,7 @@ transition: all 0.3s ease-in;
     justify-content: center;
     height: 90%;
     width: 40%;
+    min-width: 400px;
 
 }
 
@@ -323,6 +344,7 @@ transition: all 0.3s ease-in;
     justify-content: center;
     height: 90%;
     width: 50%;
+    min-width: 400px;
 
 }
 
@@ -552,7 +574,7 @@ transition: all 0.3s ease-in;
 
 }
 
-@media (max-width:968px) {
+@media (max-width:1010px) {
 
     #whats{
 
@@ -565,6 +587,59 @@ transition: all 0.3s ease-in;
 
         height: 90px;
 
+    }
+
+    #land aside {
+
+        height: 60%;
+        min-width: 500px;
+    
+    }
+
+    #land section {
+        height: 30%;
+    }
+
+    #img-info{
+        display: none;
+    }
+
+    #cont-info{
+        background-image: url(../images/vela.jpg);
+    }
+
+    #text-info {
+        background-color: rgba(255, 255, 255, 0.064);
+        backdrop-filter: blur(5px);
+        padding: 10px;
+        border-radius: 5px;
+        min-width: none;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    #land aside {
+
+        height: 60%;
+        min-width: 340px;
+        padding: 10px;
+    
+    }
+
+    #land section {
+        height: 30%;
+    }
+
+    #text-info {
+        background-color: rgba(255, 255, 255, 0.064);
+        backdrop-filter: blur(5px);
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        min-width: 250px;
+        padding: 5px;
     }
 
 }
