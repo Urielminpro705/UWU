@@ -395,7 +395,8 @@ body{
 #chaman-img{
 
     border: 3px solid var(--color2);
-    height: 180%;
+    /* height: 180%; */
+    width: 42%;
     position: absolute;
     top: -90px;
     border-radius: 10px;
@@ -633,6 +634,12 @@ body{
     
     }
 
+    #chaman-img{
+
+        width: 70%;
+    
+    }
+
 }
 
 @media (max-width:450px) {
@@ -657,6 +664,13 @@ body{
         font-size: 0.8rem;
         min-width: 250px;
         padding: 5px;
+    }
+
+    #chaman-img{
+
+        width: 100%;
+        top: 10px;
+    
     }
 
 }
