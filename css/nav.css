@@ -6,7 +6,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 64px;
-    height: 140px;
+    height: 100px;
     width: 100%;
     background-color: var(--color0);
     border-bottom: 5px solid var(--color2);
@@ -18,7 +18,17 @@ nav{
     position: absolute;
     left: 10px;
     top: 0;
+    height: 90px;
 
+}
+
+#btn-menu {
+    display: none;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    font-size: 2rem;
+    color: var(--color2);
 }
 
 .nav-item{
@@ -28,6 +38,13 @@ nav{
     font-weight: 500;
     font-size: 1.1em;
 
+}
+
+#nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
 }
 
 .nav-item:hover{
@@ -70,11 +87,21 @@ nav{
 }
 
 @media (max-width:768px) {
+    #btn-menu {
+        display: block;
+    }
 
-.nav-item{
+    nav { 
+        overflow: hidden;
+        align-items: normal;
+    }
 
-    display: none;
-
-}
-
+    #nav-items {
+        position: relative;
+        top: 120px;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 150px;
+    }
 }

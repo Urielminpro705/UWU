@@ -15,7 +15,7 @@
         
         <img id="whats" onclick="whats()" src="images/whatsapp logo.png" alt="Whatsapp Chamán ancestral">
         <img id="face" src="images/Logo Facebook.webp" alt="Facebook Chamán ancestral">
-        <nav class="sombra">
+        <nav class="sombra" id="nav">
             <div id="cont-menu-lateral" style="display: none;">
                 <div id="formu-whats">
                     <i class="fa-solid fa-circle-xmark tachita"></i>
@@ -27,9 +27,12 @@
             </div>
             <link rel="stylesheet" href="css/nav.css">
             <img src="images/Logo.png" height="130px" id="logo" alt="Logo Chaman Amarres, Magia Blanca">
-            <a href="" class="nav-item">Inicio <i class="fa-solid fa-house"></i></a>
-            <a href="servicios.html" class="nav-item">Servicios <i class="fa-solid fa-spray-can-sparkles"></i></a>
-            <a href="contacto.html" class="nav-item">Contacto <i class="fa-solid fa-phone"></i></a>
+            <div id="nav-items">
+                <a href="index.html" class="nav-item">Inicio <i class="fa-solid fa-house"></i></a>
+                <a href="servicios.html" class="nav-item">Servicios <i class="fa-solid fa-spray-can-sparkles"></i></a>
+                <a href="contacto.html" class="nav-item">Contacto <i class="fa-solid fa-phone"></i></a>
+            </div>
+            <i class="fa-solid fa-bars" id="btn-menu"></i>
         </nav>
 
         <div id="land">
@@ -231,6 +234,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/nav.js"></script>
 
 </body>
 </html>
