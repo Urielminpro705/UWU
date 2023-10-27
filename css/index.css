@@ -746,6 +746,13 @@ body {
         right: -80px;
 
     }
+
+    #slider-0 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
 }
 
 @media (max-width:450px) {
