@@ -9,9 +9,9 @@ $(document).ready(function () {
 
     btn_HamburguesaUWU.click(function () {
         if (isAlturaOriginal) {
-            nav.animate({ height: alturaCambiada }, 500);
+            nav.animate({ height: alturaCambiada }, 350);
         } else {
-            nav.animate({ height: alturaOriginal }, 500);
+            nav.animate({ height: alturaOriginal }, 350);
         }
 
         isAlturaOriginal = !isAlturaOriginal;
