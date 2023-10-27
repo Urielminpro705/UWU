@@ -159,6 +159,7 @@ body{
     height: 70%;
     width: 100%;
     overflow: auto;
+    padding-bottom: 10px;
 
 }
 

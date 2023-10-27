@@ -582,6 +582,10 @@ body {
     min-width: 400px;
 }
 
+#cont-comments h2 {
+    margin-top: 3rem;
+}
+
 .respond {
 
     position: absolute;
@@ -881,6 +885,21 @@ body {
     }
 
     #comments {
+        height: 73%;
         justify-content: center;
+    }
+
+    #cont-comments {
+
+        height: 750px;
+    
+    }
+
+    #cont-comments h2{
+        margin-top: 30px;
+    }
+
+    #cont-comments a {
+        min-width: 250px;
     }
 }
