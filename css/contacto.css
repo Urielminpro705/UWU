@@ -93,3 +93,33 @@ body{
     align-items: center;
 
 }
+
+@media (max-width:1010px) {
+
+    #whats {
+
+        height: 70px;
+        bottom: 2rem;
+
+    }
+
+    #face {
+
+        height: 90px;
+    }
+}
+
+@media (max-width:450px) {
+    #face {
+
+        height: 80px;
+
+    }
+
+    #whats {
+
+        height: 60px;
+        right: 11px;
+    
+    }
+}
