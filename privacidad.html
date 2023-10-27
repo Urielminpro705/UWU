@@ -10,12 +10,24 @@
 </head>
 <body>
     <div id="todo">
-        <nav class="sombra">
+        <nav class="sombra" id="nav">
+            <div id="cont-menu-lateral" style="display: none;">
+                <div id="formu-whats">
+                    <i class="fa-solid fa-circle-xmark tachita"></i>
+                    <h2>¡Mandanos un Mensaje de Whatsapp!</h2>
+                    <input id="input-name" class="imp" type="text" placeholder="Nombre">
+                    <textarea id="input-mensaje" class="imp" placeholder="Mensaje" cols="30" rows="10"></textarea>
+                    <p class="btn">Enviar Mensaje</p>
+                </div>
+            </div>
             <link rel="stylesheet" href="css/nav.css">
             <img src="images/Logo.png" height="130px" id="logo" alt="Logo Chaman Amarres, Magia Blanca">
-            <a href="index.html" class="nav-item">Inicio <i class="fa-solid fa-house"></i></a>
-            <a href="servicios.html" class="nav-item">Servicios <i class="fa-solid fa-spray-can-sparkles"></i></a>
-            <a href="contacto.html" class="nav-item">Contacto <i class="fa-solid fa-phone"></i></a>
+            <div id="nav-items">
+                <a href="index.html" class="nav-item">Inicio <i class="fa-solid fa-house"></i></a>
+                <a href="servicios.html" class="nav-item">Servicios <i class="fa-solid fa-spray-can-sparkles"></i></a>
+                <a href="contacto.html" class="nav-item">Contacto <i class="fa-solid fa-phone"></i></a>
+            </div>
+            <i class="fa-solid fa-bars" id="btn-menu"></i>
         </nav>
         
         <main>
@@ -58,20 +70,23 @@
     
     <footer>
         <link rel="stylesheet" href="css/footer.css">
-        <img id="footer-logo" src="images/Logo.png" alt="">
+        <div id="cont-footer">
+            <img id="footer-logo" src="images/Logo.png" alt="">
         <div id="footer-contact">
             <h3>Información de contacto:</h3>
             <p>Correo electronico: example@ejemplo.com</p>
-            <p>Numero: 477-180-40-49</p>
-            <p>Desarrollador Web: <a href="https://cosmobius.com" target="_blank">Cosmobius.com</a></p>
+            <p>Numero: +140 493-95-045</p>
+            <p>Desarrollador Web: <a target="_blank" href="https://cosmobius.com">Cosmobius.com</a></p>
             <p>Chamán Ancestral - <a href="privacidad.html">Aviso de privacidad.</a></p>
         </div>
         <div id="footer-menu">
             <h3>Menu</h3>
-            <a href="index.html">Inicio</a>
+            <a href="">Inicio</a>
             <a href="servicios.html">Servicios</a>
             <a href="contacto.html">Contacto</a>
         </div>
+        </div>
+        <img id="footer-img-mobile" src="images/Logo.png" alt="">
     </footer>
 
 </body>

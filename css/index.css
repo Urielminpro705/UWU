@@ -737,6 +737,22 @@ body {
         background-size: cover;
     
     }
+
+    #input-name {
+
+        width: 80%;
+    
+    }
+    
+    #input-mensaje {
+    
+        width: 80%;
+    
+    }
+
+    #formu-whats h2 {
+        text-align: center;
+    }
 }
 
 @media (max-width:450px) {
