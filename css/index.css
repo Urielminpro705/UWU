@@ -1,8 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-:root{
+:root {
 
     --colorx: #2b2b2b;
     --color0: #111111;
@@ -11,7 +10,7 @@
 
 }
 
-body{
+body {
 
     margin: 0;
     padding: 0;
@@ -21,7 +20,7 @@ body{
 
 }
 
-.btn{
+.btn {
 
     user-select: none;
     display: flex;
@@ -38,7 +37,7 @@ body{
 
 }
 
-.btn:hover{
+.btn:hover {
 
     cursor: pointer;
     background-color: var(--color1);
@@ -47,7 +46,7 @@ body{
 
 }
 
-#whats{
+#whats {
 
     position: fixed;
     height: 100px;
@@ -59,7 +58,7 @@ body{
 
 }
 
-#whats:hover{
+#whats:hover {
 
     cursor: pointer;
     filter: brightness(70%);
@@ -67,7 +66,7 @@ body{
 
 }
 
-#face{
+#face {
 
     position: fixed;
     height: 130px;
@@ -79,7 +78,7 @@ body{
 
 }
 
-#face:hover{
+#face:hover {
 
     cursor: pointer;
     filter: brightness(70%);
@@ -87,7 +86,7 @@ body{
 
 }
 
-#todo{
+#todo {
 
     display: flex;
     flex-direction: column;
@@ -96,7 +95,7 @@ body{
 
 }
 
-#formu-whats{
+#formu-whats {
 
     position: relative;
     display: flex;
@@ -111,7 +110,7 @@ body{
 
 }
 
-.imp{
+.imp {
 
     margin-top: 2rem;
     font-family: "Poppins";
@@ -122,14 +121,14 @@ body{
 
 }
 
-#input-name{
+#input-name {
 
     height: 40px;
     width: 50%;
 
 }
 
-#input-mensaje{
+#input-mensaje {
 
     resize: none;
     height: 120px;
@@ -137,7 +136,7 @@ body{
 
 }
 
-.btn-land{
+.btn-land {
 
     display: flex;
     flex-direction: column;
@@ -155,7 +154,7 @@ body{
 
 }
 
-.btn-land:hover{
+.btn-land:hover {
 
     cursor: pointer;
     color: var(--colorx);
@@ -164,19 +163,19 @@ body{
 
 }
 
-#btn-right{
+#btn-right {
 
     right: 16px;
 
 }
 
-#btn-left{
+#btn-left {
 
     left: 16px;
 
 }
 
-#land{
+#land {
 
     overflow: hidden;
     position: relative;
@@ -185,7 +184,7 @@ body{
 
 }
 
-.slider{
+.slider {
 
     position: absolute;
     display: flex;
@@ -203,7 +202,7 @@ body{
 }
 
 
-#slider-barras{
+#slider-barras {
 
     position: absolute;
     bottom: 0;
@@ -221,7 +220,7 @@ body{
 
 }
 
-.slider-barra{
+.slider-barra {
 
     height: 3px;
     width: 5%;
@@ -232,9 +231,9 @@ body{
 }
 
 #slider-0 {
-    background-image: url(../images/Amarre\ Online\ Chaman\ ancestral.jpg); 
+    background-image: url(../images/Amarre\ Online\ Chaman\ ancestral.jpg);
     background-position: 0px -530px;
-    
+
 }
 
 #slider-1 {
@@ -249,19 +248,21 @@ body{
     background-image: url(../images/Chaman\ Ancestral\ Protecciones.jpg);
 }
 
-.slider-barra:hover{
+.slider-barra:hover {
 
     cursor: pointer;
 
 }
 
-#land h1, #land h2{
+#land h1,
+#land h2 {
 
     font-weight: 400;
 
 }
 
-#land aside, #land section{
+#land aside,
+#land section {
 
     text-align: center;
     display: flex;
@@ -274,7 +275,7 @@ body{
 
 }
 
-#land aside{
+#land aside {
 
     border-radius: 10px;
     background-color: rgb(33, 33, 33, 0.3);
@@ -286,21 +287,21 @@ body{
     min-width: 270px;
 }
 
-#hechi{
+#hechi {
 
     background-color: rgb(33, 33, 33, 0.9);
 
 }
 
-#land aside p{
+#land aside p {
 
     margin-top: 0;
     width: 80%;
 
 }
 
-#cont-info{
-    
+#cont-info {
+
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -316,7 +317,7 @@ body{
 
 }
 
-#ojo{
+#ojo {
 
     position: absolute;
     height: 260px;
@@ -325,7 +326,7 @@ body{
 
 }
 
-#text-info{
+#text-info {
 
     display: flex;
     flex-direction: column;
@@ -336,13 +337,13 @@ body{
 
 }
 
-#text-info p{
+#text-info p {
 
     margin-top: 0;
 
 }
 
-#img-info{
+#img-info {
 
     display: flex;
     flex-direction: column;
@@ -354,7 +355,7 @@ body{
 
 }
 
-#img-info img{
+#img-info img {
 
     border-radius: 10px;
     width: 80%;
@@ -362,7 +363,7 @@ body{
 
 }
 
-#chaman-info{
+#chaman-info {
 
     position: relative;
     display: flex;
@@ -378,7 +379,7 @@ body{
 
 }
 
-#flor{
+#flor {
 
     position: absolute;
     height: 190px;
@@ -387,7 +388,7 @@ body{
 
 }
 
-#cont-chaman-img{
+#cont-chaman-img {
 
     display: flex;
     flex-direction: column;
@@ -398,7 +399,7 @@ body{
 
 }
 
-#chaman-img{
+#chaman-img {
 
     border: 3px solid var(--color2);
     /* height: 180%; */
@@ -409,7 +410,7 @@ body{
 
 }
 
-#chaman-items{
+#chaman-items {
 
     display: flex;
     flex-direction: column;
@@ -430,13 +431,13 @@ body{
     min-width: 200px;
 }
 
-#chaman-items h2{
+#chaman-items h2 {
 
     height: 10%;
 
 }
 
-#cont-chaman-items{
+#cont-chaman-items {
 
     border-radius: 10px;
     display: flex;
@@ -449,7 +450,7 @@ body{
 
 }
 
-.item{
+.item {
 
     display: flex;
     flex-direction: column;
@@ -463,13 +464,13 @@ body{
     margin-right: 5px;
 }
 
-.item h3{
+.item h3 {
 
     font-size: 1.2em;
 
 }
 
-.item-text{
+.item-text {
 
     margin-top: 0px;
     text-align: center;
@@ -477,7 +478,7 @@ body{
 
 }
 
-#chaman-info2{
+#chaman-info2 {
 
     position: relative;
     display: flex;
@@ -493,7 +494,7 @@ body{
 
 }
 
-#amorcita{
+#amorcita {
 
     font-size: 8rem;
     right: -3rem;
@@ -503,7 +504,7 @@ body{
 
 }
 
-#chaman2-img{
+#chaman2-img {
 
     display: flex;
     flex-direction: column;
@@ -512,7 +513,7 @@ body{
 
 }
 
-#chaman2-img img{
+#chaman2-img img {
 
     width: 100%;
     border-radius: 10px;
@@ -524,11 +525,11 @@ body{
     min-width: 300px;
 }
 
-#chaman2-text{
+#chaman2-text {
 
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
     height: 80%;
     width: 35%;
@@ -540,7 +541,7 @@ body{
     display: none;
 }
 
-#cont-comments{
+#cont-comments {
 
     display: flex;
     flex-direction: column;
@@ -553,7 +554,7 @@ body{
 
 }
 
-#comments{
+#comments {
 
     gap: 1rem;
     height: 65%;
@@ -566,7 +567,7 @@ body{
 
 }
 
-.comment{
+.comment {
 
     position: relative;
     border-radius: 5px;
@@ -581,7 +582,7 @@ body{
     min-width: 400px;
 }
 
-.respond{
+.respond {
 
     position: absolute;
     font-size: 0.8rem;
@@ -590,7 +591,7 @@ body{
 
 }
 
-.comment-user{
+.comment-user {
 
     color: var(--color0);
     display: flex;
@@ -603,7 +604,7 @@ body{
 
 }
 
-.comment-text{
+.comment-text {
 
     width: 90%;
 
@@ -611,14 +612,14 @@ body{
 
 @media (max-width:1010px) {
 
-    #whats{
+    #whats {
 
         height: 70px;
         bottom: 2rem;
 
     }
 
-    #face{
+    #face {
 
         height: 90px;
 
@@ -628,7 +629,7 @@ body{
 
         height: 90%;
         min-width: 500px;
-    
+
     }
 
     #land aside a {
@@ -640,11 +641,11 @@ body{
         display: none;
     }
 
-    #img-info{
+    #img-info {
         display: none;
     }
 
-    #cont-info{
+    #cont-info {
         background-image: url(../images/vela.jpg);
     }
 
@@ -656,26 +657,26 @@ body{
         min-width: none;
     }
 
-    #cont-chaman-items{
+    #cont-chaman-items {
 
         justify-content: left;
-    
+
     }
 
-    #chaman-img{
+    #chaman-img {
 
         width: 65%;
         min-width: 390px;
-    
+
     }
 
-    #chaman2-img{
+    #chaman2-img {
 
         display: none;
-    
+
     }
 
-    #chaman2-text{
+    #chaman2-text {
 
         width: 95%;
         height: 95%;
@@ -684,10 +685,10 @@ body{
         backdrop-filter: blur(5px);
         border-radius: 5px;
         padding: 20px;
-    
+
     }
 
-    #chaman2-text a{
+    #chaman2-text a {
         display: block;
         min-width: 250px;
         width: 250px;
@@ -703,7 +704,7 @@ body{
         background-size: cover;
     }
 
-    #comments{
+    #comments {
 
         gap: 1rem;
         height: 65%;
@@ -714,11 +715,11 @@ body{
         justify-content: center;
         flex-wrap: wrap;
         overflow: auto;
-    
+
     }
-    
-    .comment{
-    
+
+    .comment {
+
         height: auto;
         width: 30%;
         display: flex;
@@ -731,13 +732,20 @@ body{
         margin-top: 45px;
     }
 
-    .btn-land{
+    .btn-land {
 
         height: 50px;
         width: 50px;
-    
+
     }
 
+    #ojo {
+
+        height: 200px;
+        top: -80px;
+        right: -80px;
+
+    }
 }
 
 @media (max-width:450px) {
@@ -747,7 +755,7 @@ body{
         height: 90%;
         min-width: 330px;
         padding: 10px;
-    
+
     }
 
     #land section {
@@ -762,15 +770,15 @@ body{
         padding: 5px;
     }
 
-    #chaman-img{
+    #chaman-img {
 
         width: 100%;
         top: 10px;
         min-width: 0px;
-    
+
     }
 
-    #chaman2-text{
+    #chaman2-text {
 
         width: 100%;
         height: 100%;
@@ -779,25 +787,48 @@ body{
         backdrop-filter: blur(5px);
         border-radius: 10px;
         padding: 10px;
-    
+
     }
 
-    .btn-land{
+    .btn-land {
 
         height: 40px;
         width: 40px;
-    
+
     }
 
-    #btn-right{
+    #btn-right {
 
         right: 10px;
-    
+
     }
-    
-    #btn-left{
-    
+
+    #btn-left {
+
         left: 10px;
+
+    }
+
+    #ojo {
+
+        height: 150px;
+        top: -60px;
+        right: -70px;
+        z-index: 27;
+
+    }
+
+    #amorcita {
+
+        font-size: 7rem;
+        right: -3rem;
+        bottom: -3rem;
+        
+    }
+
+    #chaman-info {
+
+        margin-top: 30px;
     
     }
 }
