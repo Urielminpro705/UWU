@@ -599,6 +599,7 @@ body {
     justify-content: center;
     border-radius: 50%;
     height: 40px;
+    min-width: 40px;
     width: 40px;
     background-color: var(--color1);
 
@@ -706,29 +707,12 @@ body {
 
     #comments {
 
-        gap: 1rem;
-        height: 65%;
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
         overflow: auto;
 
     }
 
     .comment {
 
-        height: auto;
-        width: 30%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
-        border-bottom: 1px solid darkgray;
-        min-width: 400px;
         margin-top: 45px;
     }
 
@@ -850,5 +834,37 @@ body {
         height: 60px;
         right: 11px;
     
+    }
+
+    .comment {
+        margin: 0;
+        margin-bottom: 60px;
+        min-width: 300px;
+        height: auto;
+        display: none;
+    }
+
+    #comment1 {
+        display: inline-flex;
+    }
+
+    #comment2 {
+        display: inline-flex;
+    }
+
+    #comment3 {
+        display: inline-flex;
+    }
+
+    .respond {
+
+        font-size: 0.8rem;
+        bottom: -73px;
+        width: 90%;
+    
+    }
+
+    #comments {
+        justify-content: center;
     }
 }
